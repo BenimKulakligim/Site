@@ -11,12 +11,12 @@ body {
   background-color: rgb(255, 162, 162);
   padding: 20px;
   width: 100%;
-  position: fixed;
+  position: flex;
   top: 0px;
 }
 .main-nav {
   display: inline-block;
-  width: calc(100% - 300px);
+  width: calc(100% - 260px);
   text-align: right;
 }
 .main-nav_items {
@@ -39,7 +39,6 @@ body {
   text-decoration: none;
   margin: 0px 10px;
   font-size: 45px;
-  display: inline-block;
 }
 .main-nav_item a:hover {
   color: rgb(219, 245, 255);
@@ -49,7 +48,7 @@ body {
   color: rgb(255, 253, 187);
   transition: 1s;
 }
-.main-nav_images{
-    width: 30px;
-    height: 30px;
+.main-nav_images {
+  width: 30px;
+  height: 30px;
 }
